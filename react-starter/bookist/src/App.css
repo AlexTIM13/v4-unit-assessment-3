@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  color: #222;
+}
+
+.Header {
+  background-color: grey;
+  height: 17vh;
+}
+
+.booklist {
+  width: 90vw;
+  max-width: 1400px;
+  margin: 2rem auto;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.book {
+  background-color: white;
+  border-radius: 1rem;
+  padding: 1rem 1rem;
+}
+
+.btn {
+  display: inline-block;
+  background: #909090;
+  color: black;
+  padding: 0.25rem 0.75rem;
+  border-radius: 10px;
+  border-color: transparent;
+  text-transform: capitalize;
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+  margin-top: 2rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+
+.input {
+  background: whitesmoke;
+  border-color: grey;
+  border-radius: 10px;
+  padding: 0.25rem 0.5rem;
+}

@@ -1,4 +1,4 @@
-const data = [
+export const data = [
     {
         id: 1,
         title: `The Pragmatic Programmer`, 
@@ -73,4 +73,3 @@ const data = [
     }
 ]
 
-export default data
